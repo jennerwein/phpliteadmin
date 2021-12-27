@@ -13,3 +13,4 @@ services:
       - "8080:80"
     environment:
       - TZ=Europe/Berlin
+      - PASSWORD=mypass
