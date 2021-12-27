@@ -1,0 +1,40 @@
+!.gitignore
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.pickle
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# ignore Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore Logs and databases, but not sqlite #
+*.log
+*.sql
+# *.sqlite
+
+# ignore OS generated files #
+ehthumbs.db
+Thumbs.db
+*.bak
+*.swp
+__py*
+
+# Ausnahmsweise NICHT ignorieren
+!chromedriver*
