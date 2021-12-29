@@ -3,7 +3,8 @@
 # If you want to push it manually
 
 GITHUB_NAME=jennerwein
-TAG=v0.7.0
+# TAG=v0.7.0 # start
+TAG=v0.7.1 # New start page
 NAME=phpliteadmin
 
 docker login

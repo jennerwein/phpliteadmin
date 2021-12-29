@@ -5,6 +5,7 @@ FROM php:7.4-apache
 #     && chmod 777 /db
 COPY ./php/phpliteadmin.config.php /var/www/html/
 COPY ./php/phpliteadmin.php /var/www/html/
+COPY ./php/.htaccess /var/www/html/
 
 WORKDIR /var/www/html/
 
