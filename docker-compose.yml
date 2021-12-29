@@ -5,7 +5,6 @@ services:
   phpliteadmin:
     # https://bitbucket.org/phpliteadmin/public/wiki/Installation
     image: 'jennerwein/phpliteadmin'
-    hostname: phpliteadmin
     container_name: "phpliteadmin"
     volumes:
       - "./db:/db"
