@@ -2,7 +2,8 @@
 # Script to build a test image (before pushing to git)
 
 GITHUB_NAME=jennerwein
-TAG=0.7.0
+# TAG=v0.7.0 # start
+TAG=v0.7.1 # New start page
 NAME=phpliteadmin
 
 # Clean up

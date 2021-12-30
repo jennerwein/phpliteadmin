@@ -16,7 +16,7 @@
 *.key
 *.pem
 
-# ignore Compiled source #
+# ignore Compiled source
 *.com
 *.class
 *.dll
@@ -24,17 +24,13 @@
 *.o
 *.so
 
-# ignore Logs and databases, but not sqlite #
+# ignore Logs 
 *.log
-*.sql
-# *.sqlite
 
-# ignore OS generated files #
+# ignore OS generated files
 ehthumbs.db
 Thumbs.db
 *.bak
 *.swp
 __py*
 
-# Ausnahmsweise NICHT ignorieren
-!chromedriver*
