@@ -1,4 +1,4 @@
-# phpliteadmin(version: 1.9.8.2)
+# Dockerized phpliteadmin(version: 1.9.8.2)
 
 Provided you have a sqlite database at `./db/db.sqlite`. Run container `phpliteadmin` by:
 

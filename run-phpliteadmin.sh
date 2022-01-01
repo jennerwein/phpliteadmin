@@ -14,3 +14,6 @@ docker run -d -p 8080:80  \
     -v "$PWD"/db:/db      \
     --name ${NAME}        \
     ${GITHUB_NAME}/${NAME}:${TAG}
+
+    # -e APACHE_RUN_USER='#1000' \
+    # -e APACHE_RUN_GROUP='#1000' \
