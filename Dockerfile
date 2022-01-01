@@ -1,6 +1,8 @@
 # My image with python, pip3, iproute2, curl, vim ...
 FROM php:7.4-apache
 
+RUN echo "ServerName phpliteadmin" >> /etc/apache2/apache2.conf
+
 # RUN mkdir -p /db \
 #     && chmod 777 /db
 COPY ./php/phpliteadmin.config.php /var/www/html/
