@@ -3,8 +3,7 @@ FROM php:7.4-apache
 
 RUN echo "ServerName phpliteadmin" >> /etc/apache2/apache2.conf
 
-# RUN mkdir -p /db \
-#     && chmod 777 /db
+# Solve the problem: File permissions when developing with Docker
 # https://ntsim.uk/posts/file-permissisions-when-developing-with-docker
 # Add a special user (appuser) for apache
 # Necessary for r/w-mounting the database folder /db

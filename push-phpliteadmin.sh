@@ -4,8 +4,9 @@
 
 GITHUB_NAME=jennerwein
 # TAG=v0.7.0 # start
-# TAG=v0.7.1 # New start page
-TAG=v0.7.2 # Docker file with appuser (UID 1000)
+# TAG=v0.7.1 # New readme
+# TAG=v0.7.2 # Docker file with appuser (UID 1000)
+TAG=v0.7.3 # small editorial changes
 
 NAME=phpliteadmin
 
